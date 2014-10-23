@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HCLAN : Créer ton clan</title>
+<link href="styles/clan.css" rel="stylesheet" type="text/css">
+<script type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+	<div id="top">
+		<div id="titre">HCLAN</div>
+		<div id="loginDiv">
+			<form id="loginForm" class="loginTable">
+				<div class="logintable">
+					<div class="loginRow">
+						<div class="loginCell"><label class="mini" for="email">Adresse électronique</label></div>
+						<div class="loginCell"><label class="mini" for="email">Mot de passe</label></div>
+					</div>
+					<div class="loginRow">
+						<div class="loginCell"><input type="email" size="30" class="loginType" name="login" value="Adresse électronique" ></div>
+						<div class="loginCell"><input type="password"size="30" class="loginType" name="password" value="Mot de passe"></div>
+						<div class="loginCell"><input type="submit" class="loginType" name="connect" value="Connexion"></div>
+					</div>
+					<div class="loginRow">
+						<div class="loginCell"><a href="" class="mini">Garder ma session active </a><input type="checkbox" class="loginType" name="sessionActive"/></div>
+						<div class="loginCell"><a href="" class="mini">Mot de passe oublié ?</a></div>
+					</div>
+					
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div id="main">
+		<div id="infos">Ce site a pour vocation de créer un réseau sical de personnes dans le but de partager des services. 
+			<a href="">Je souhaite en savoir plus</a>
+		</div>
+		<div id="marge"></div>
+		<div id="inscription">
+				<h1>Inscription</h1>
+				<h2>C'est gratuit !!!!</h2>
+				<input type="text" size="30" class="subscribeInput" name="surname" value="Prénom" autocomplete="on" required="required"><input type="text" size="30" class="subscribeInput" name="name" value="Nom de famille" autocomplete="on" required="required"><br />
+				<input type="email" size="68" class="subscribeInput" name="email" value="Adresse électronique" autocomplete="on" required="required"><br />
+				<input type="email" size="68" class="subscribeInput" name="confirmEmail" value="Confirmer l'adresse électronique" autocomplete="on" required="required"><br />
+				<input type="password" size="30" class="subscribeInput" name="password" value="Mot de passe" required="required"/>
+				<input type="submit" class="subscribeButton" value="Inscrivez vous"/>
+		</div>
+	</div>
+	
+	<div id="bottom">BANDEAU BAS</div>
+</div>	
+
+</body>
+</html>
